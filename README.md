@@ -16,7 +16,7 @@ Each team member participated in the EDA process, contributing our unique talent
 
 ## Modeling
 
-1. The goal is of course to build a model and make predictions that the city of Chicago can use when it decides where to spray pesticides! Your team should have a clean Jupyter Notebook that shows your EDA process, your modeling and predictions.
+1. We build a number of models (), the best of which and make predictions that the city of Chicago can use when it decides where to spray pesticides! Your team should have a clean Jupyter Notebook that shows your EDA process, your modeling and predictions.
 2. Conduct a cost-benefit analysis. This should include annual cost projections for various levels of pesticide coverage (cost) and the effect of these various levels of pesticide coverage (benefit). *(Hint: How would we quantify the benefit of pesticide spraying? To get "maximum benefit," what does that look like and how much does that cost? What if we cover less and therefore get a lower level of benefit?)*
 3. Your final submission CSV should be in your GitHub repo.
 
@@ -27,16 +27,3 @@ Each team member participated in the EDA process, contributing our unique talent
 We submitted our predictions to the Kaggle site to see how we could improve our models.The public leaderboard uses roughly 30% of the dataset to score an AUC (Area Under Curve) metric. Click [here](https://www.kaggle.com/wiki/AreaUnderCurve) to read more about this scoring metric. We could submit predictions as many times as you liked to Kaggle, but there was a limit of 5 submissions per day.
 
 ***Num Mosquitos*** Upon further reflection, we decided it may not be statistically justifiable using our data to interpolate the number of mosquitos and then using these interpolated data to further predict where West Nile positive mosquitos might be in the future, so we gave up on this aspect of the project. Nevertheless, this mosquito predictor might be a valuable side project independent of the West Nile Virus predictor. For instance, it may be that a different mosquito-borne infectious disease may strike Chicago in the future such as Zika or Chikungunya.
-
----
-
-**Your project is due at 10:00 AM EST/9:00 AM CST on Friday, June 15.**
-
----
-
-### Project Feedback + Evaluation
-
-Data science is a field in which we apply data to solve real-world problems. Therefore, projects and presentations are means by which we can assess your ability to solve real-world problems in a data-driven manner.
-
-Your final assessment ("grade," if you will) will be calculated based on a [topical rubric](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing). For each category, you will receive a score of 0-3. From the rubric you can see descriptions of each score and what is needed to attain those scores. Make sure you look at the "Rubric P4" tab of the [spreadsheet](https://docs.google.com/spreadsheets/d/1V6OzSHPXCJEe_sVT7B1vE7sT-jqNMNo-NrmZHtafMXY/edit?usp=sharing).
-# West_Nile_Virus_Chicago
