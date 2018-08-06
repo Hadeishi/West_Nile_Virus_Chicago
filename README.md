@@ -12,15 +12,15 @@ The dataset, along with description, was downloaded from [this site](https://www
 
 ## Exploratory Data Analysis
 
-Each team member participated in the EDA process, contributing our unique talents to the project. My background in biology and pharmacology and came in handy researching mosquito species and instability of the insecticide, as well as looking into the underlying physics of weather forecasting. Others in our group took on different challenges. Our independent EDA is collected in jupyter notebooks in the Master folder. You can get to these folders by clickling [here]().
+Each team member participated in the EDA process, contributing our unique talents to the project. My background in biology and pharmacology and came in handy researching mosquito species and instability of the insecticide, as well as looking into the underlying physics of weather forecasting. Others in our group took on different challenges. Our independent EDA is collected in jupyter notebooks in the Master folder. You can get to these folders by clickling [here](https://github.com/Hadeishi/West_Nile_Virus_Chicago/tree/master/Notebooks-WIP). The best EDA, created by Max Reinisch,
 
 ## Modeling
 
 1. We built a number of models, the best of which and make predictions that the city of Chicago can use when it decides where to spray pesticides. Each member of our team made Jupyter Notebooks that shows our EDA process, our modeling, and predictions.
-2. Our final model was a neural net and can be found [here]().
+2. Our final model was a neural net and can be found [here](https://github.com/Hadeishi/West_Nile_Virus_Chicago/blob/master/Notebooks-Master/04_Build_Models.ipynb).
 
 **Presentation**
-* We also created a [presentation]() aimed at biostatisticians and epidemiologists who understand our models and metrics and will want more information as well as decision-makers, who will be focused almost exclusively on our cost-benefit analysis.
+* We also created a presentation aimed at biostatisticians and epidemiologists who understand our models and metrics and will want more information as well as decision-makers, who will be focused almost exclusively on our cost-benefit analysis.
 
 We submitted our predictions to the Kaggle site to see how we could improve our models. The public leaderboard uses roughly 30% of the dataset to score an AUC (Area Under Curve) metric, in common usage in data science and other circles to compare binary classification models; click [here](https://www.kaggle.com/wiki/AreaUnderCurve) to read more about this scoring metric. We could submit predictions as many times as we liked to Kaggle, but there was a limit of 5 submissions per day.
 
