@@ -8,7 +8,7 @@ Due to the recent epidemic of West Nile Virus in the Windy City, the Department 
 
 ## Dataset
 
-The dataset, along with description, was downloaded from [this site:](https://www.kaggle.com/c/predict-west-nile-virus/). Data was collected between 2006 and 2010 in Chicago, Illinois. It contained counts of mosquitos trapped throughout Chicago and whether or not these mosquitos tested positive for West Nile virus (see [this notebook](https://github.com/Hadeishi/DSI_Project_4/blob/master/West-Nile-Virus.ipynb) as well as weather data measured at both Chicago airports over the same time period. Using these data, we were to develop a model to predict where and when West Nile positive mosquitos would occur over two years when we were not supplied with this target. We could check the predictions made by our models against reality by sending them in to kaggle and receiving feedback up to 5 times per day so we could iteratively improve our models.
+The dataset, along with description, was downloaded from [this site](https://www.kaggle.com/c/predict-west-nile-virus/). Data was collected between 2006 and 2010 in Chicago, Illinois. It contained counts of mosquitos trapped throughout Chicago and whether or not these mosquitos tested positive for West Nile virus (see [this notebook](https://github.com/Hadeishi/DSI_Project_4/blob/master/West-Nile-Virus.ipynb) as well as weather data measured at both Chicago airports over the same time period. Using these data, we were to develop a model to predict where and when West Nile positive mosquitos would occur over two years when we were not supplied with this target. We could check the predictions made by our models against reality by sending them in to kaggle and receiving feedback up to 5 times per day so we could iteratively improve our models.
 
 ## Exploratory Data Analysis
 
@@ -16,13 +16,11 @@ Each team member participated in the EDA process, contributing our unique talent
 
 ## Modeling
 
-1. We build a number of models (), the best of which and make predictions that the city of Chicago can use when it decides where to spray pesticides! Your team should have a clean Jupyter Notebook that shows your EDA process, your modeling and predictions.
-2. Conduct a cost-benefit analysis. This should include annual cost projections for various levels of pesticide coverage (cost) and the effect of these various levels of pesticide coverage (benefit). *(Hint: How would we quantify the benefit of pesticide spraying? To get "maximum benefit," what does that look like and how much does that cost? What if we cover less and therefore get a lower level of benefit?)*
-3. Your final submission CSV should be in your GitHub repo.
+1. We built a number of models, the best of which and make predictions that the city of Chicago can use when it decides where to spray pesticides. Each member of our team made Jupyter Notebooks that shows our EDA process, our modeling, and predictions.
+2. Our final model was a neural net and can be found [here]().
 
 **Presentation**
-* Audience: You are presenting to members of the CDC. Some members of the audience will be biostatisticians and epidemiologists who will understand your models and metrics and will want more information. Others will be decision-makers, focusing almost exclusively on your cost-benefit analysis. Your job is to convince both groups of the best course of action in the same meeting and be able to answer questions that either group may ask.
-* The length of your presentation should be about 20 minutes (a rough guideline: 2 minute intro, 10 minutes on model, 5 minutes on cost-benefit analysis, 3 minute recommendations/conclusion).  Touch base with your local instructor... er, manager... for specific logistic requirements!
+* We also created a [presentation]() aimed at biostatisticians and epidemiologists who understand our models and metrics and will want more information as well as decision-makers, who will be focused almost exclusively on our cost-benefit analysis.
 
 We submitted our predictions to the Kaggle site to see how we could improve our models. The public leaderboard uses roughly 30% of the dataset to score an AUC (Area Under Curve) metric, in common usage in data science and other circles to compare binary classification models; click [here](https://www.kaggle.com/wiki/AreaUnderCurve) to read more about this scoring metric. We could submit predictions as many times as we liked to Kaggle, but there was a limit of 5 submissions per day.
 
